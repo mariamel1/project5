@@ -1,0 +1,163 @@
+div[class*="col-"]{
+  
+    padding: 15px;
+    float: left;
+  }
+  
+  .container{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+  
+  }
+  
+  .row:after{
+     content: "";
+     display: block;
+     clear: both;
+  }
+  
+  
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .col-1{
+     width: 8.33%;
+  }
+  .col-2{
+     width: 16.66%; 
+  }
+  .col-3{
+     width: 25%;
+  }
+  .col-4{
+     width: 33.33%;
+  }
+  .col-5{
+     width: 41.33%;
+  }
+  .col-6{
+     width: 50%;
+  }
+  .col-7{
+     width: 58.33%;
+  }
+  .col-8{
+     width: 66.66%;
+  }
+  .col-9{
+     width: 75%;
+  }
+  .col-10{
+     width: 83.33%;
+  }
+  .col-11{
+     width: 91.66%;
+  }
+  .col-12{
+     width: 100%;
+  }
+  .col-13{
+    width: 40%;
+  }
+  .col-14{
+    width: 30%;
+  }
+
+  .section1 {
+    background-image: url(./photos/contact.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+  }
+  .col-6 h1{
+    color: aliceblue;
+    font-size: 50px;
+  }
+  .yellow {
+    color: rgb(192, 192, 32);
+  }
+  .col-6 p{
+    color: aliceblue;
+    font-size: x-large;
+    margin-top: 30px;
+  }
+  .col-6 form{
+    display: flex;
+    flex-direction: column;
+  }
+  .name{
+    color: rgb(124, 131, 138);
+    background-color: #000;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid white;
+  }
+  .col-6 h3{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .radio {
+    margin-right: 10px;
+  }
+  .col-6 h4{
+    color: aliceblue;
+    margin: 10px 0;
+  }
+  button{
+    background-color:rgb(192, 192, 32) ;
+    width: 100%;
+    padding: 15px 0px;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(192, 192, 32);
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color:rgb(235, 178, 72);
+    width: 100%;
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(235, 178, 72);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .arrow{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+  }
+
+  @media screen  and (max-width: 768px){
+    .col-6{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .section1 {
+      padding: 10px;
+    }
+    .col-6 h1{
+      font-size: 30px;
+    }
+    .col-6 p{
+      font-size: large;
+      margin-top: 20px;
+    }
+    .name{
+      margin: 15px 0px;
+    }
+    .arrow {
+      font-size: 17px;
+    }
+  }
+  
